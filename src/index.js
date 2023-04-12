@@ -91,7 +91,7 @@
       // Setting highscore in the local storage
       localStorage.setItem('high-score', high_score);
 
-      scoreboard.innerHTML = `Score : ${score}`;
+      scoreboard.innerHTML = `High Score : ${score}`;
 
 
    }
