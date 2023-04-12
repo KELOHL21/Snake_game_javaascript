@@ -23,7 +23,7 @@
  let high_score = localStorage.getItem("high-score") || 0;
 
 //  Setting High Score to whats stored in localhost
- highscore_board.innerHTML = `Score : ${high_score}`
+ highscore_board.innerHTML = `High Score : ${high_score}`
 
 
  const foodPosition = () => {
@@ -91,7 +91,7 @@
       // Setting highscore in the local storage
       localStorage.setItem('high-score', high_score);
 
-      scoreboard.innerHTML = `High Score : ${score}`;
+      scoreboard.innerHTML = `Score : ${score}`;
 
 
    }
